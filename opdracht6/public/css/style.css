@@ -1,0 +1,57 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.tbl-header,
+.tbl-content {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.tbl-content {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.center {
+    text-align: center;
+    font-size: larger;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
